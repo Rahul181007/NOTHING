@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #F3F5F8;
+}
+/* ...............HEADER................ */
+.header{
+   width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+}
+.heading{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    font-family: 'NType82-bold', 'Noto Sans Thai', 'NType82Mono' ;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    
+}
+.fontnav{
+    font-family: 'NType82-bold', 'Noto Sans Thai', 'NType82Mono' ;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+}
+.phone{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.phone:hover{
+    background-color: #f0efef;
+}
+
+.audio{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio:hover{
+    background-color: #f0efef;
+}
+
+.cmf{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cmf:hover{
+    background-color: #f0efef;
+}
+.store{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store:hover{
+    background-color: #f0efef;
+}
+.community{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.community:hover{
+    background-color: #f0efef;
+}
+.support{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support:hover{
+    background-color: #f0efef;
+}
+.profile{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+}
+.profileimg:hover{
+    background-color: #f0efef;
+}
+.p1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ........... MAIN BODY.............. */
+.mainbody{
+    width: 100%;
+    background-color: #fff;
+    height: 8010px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.phone3a{
+    width: 100%;
+    height:801px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+
+.phone2ap{
+    width: 100%;
+    height:801px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2 ifr);
+    gap: 10px;
+    display: flex;
+}
+.phone2a{
+    width: 100%;
+    height:801px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+.earo{
+    width: 100%;
+    height:801px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+.ear{
+    width: 100%;
+    height:801px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+.eara{
+    width: 100%;
+    height:801px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+
+.nothingos{
+    width: 100%;
+    height:801px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+.cmfn{
+    width: 100%;
+    height:801px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+.na{
+    width: 100%;
+    height:801px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+
+.gdk{
+    width: 100%;
+    height:801px;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 10px;
+    display: flex;
+}
+
+.img{
+    width: 70%;
+    height: 801px;
+    background-color: #fff;
+}
+.img1{
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.cname{
+    width: 30%;
+    height: 801px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.cname1{
+    font-size: 60px;
+    font-family: "Noto Sans Thai", 'NType82Mono';
+    font-weight: 520;
+}
+.subname{
+    margin-top: 20px;
+}
+.button{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.bsize{
+    width: 390px;
+    height: 45px;
+    border-radius: 31px;
+    background-color: #002F6C;
+    color: #F3F5F8;
+    font-size: 18px;
+}
+.bsize:hover{
+    background-color: #043575;
+}
+/* ................footer1.............. */
+.footer1{
+    width: 100%;
+    height: 295.6px;
+    background-color:#002F6C ;
+    display: flex;
+}
+.fo1{
+    width: 100%;
+    height: 295.6px;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    display: flex;
+    background-color: #fff;
+   
+}
+.f1font{
+    width: 33.3%;
+    height: 295.6px;
+    background-color:  #fff;
+    display: flex;
+    padding: 80px;
+    
+}
+.fontf1{
+    width: 100%;
+    font-size: 32px;
+    font-family: 'NType82';
+    align-items: center;
+}
+.font2f1{
+    font-size: 32px;
+    font-family: 'NType82';
+}
+.f2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    align-self: center;
+}
+.f21{
+    padding:0px 150px;
+}
+/* ..........footer2............. */
+.foot2{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 500px;
+    gap: 10px;
+}
+.footbox{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top:  75px;
+
+} 
+.footbox1{
+    
+    color: #F3F5F8;
+    font-size: 18px;
+}   
+.email{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fffe;
+    background: black;
+    border: #f0efef 1px solid;
+    font-size: medium;
+    font-weight: 400;
+}
+/* ................empty............. */
+.empty{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+/* ...............endfoot............ */
+.endfoot{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.gridendfoot{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr;
+    gap: 10px;
+    
+    
+}
+.endbox{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+   justify-content: center;
+   
+}
+.endboxgrid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 3px;
+    
+}
+.endboxgrid1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    gap: 3px;
+    display: flex;
+    
+}
+.policy{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.pp{
+    justify-content: center;
+    display: flex;  
+}
+.pp1{
+    justify-content: end;
+    display: flex;  
+}
+.pfont{
+    font-size: 18px;
+    color: #fff;
+}
+.socialm{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    
+}
+.slogo{
+    width: 12px;
+    height: 12px;   
+}
+.youtube{
+    display: flex;
+    justify-content: center;
+    
+}
+.tiktok{
+    display: flex;
+    justify-content: center;
+    
+}
+.X{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ind{
+    color: #fff;
+    
+}
